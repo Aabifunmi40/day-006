@@ -1,6 +1,47 @@
 body {
     background: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-height: 120px;
+    margin: 0;   
 }
-8mainbackground{
-    background-color: goldenrod;
+
+
+.card{
+    background-color: #ffff;
+    max-width: 320px;
+    padding:16px;
+    text-align:center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    overflow: hidden;
+
 }
+
+button{
+    background-color: gold;
+    display: inline-block;
+    padding:4px 18px ;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.content{
+    p1{
+        font-size: 18px;
+        margin-left: -3cm;
+  
+    }
+    h1{
+        
+    }
+    p2{
+        font-size: 15px;
+    }
+    .image{
+        border-radius: 10px;
+    }
+
+}
+
